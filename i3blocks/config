@@ -1,0 +1,29 @@
+separator=false
+separator_block_width=0
+markup=pango
+
+[cpu]
+command=echo "<span foreground='#61D095' background='#161616' size='x-large'></span><span background='#61D095'>  $(~/.config/i3blocks/scripts/CPU/cpu.sh) </span>"
+interval=1
+markup=pango
+color=#ffffff
+
+[ram]
+command=echo "<span foreground='#48BF84' background='#61D095' size='x-large'></span><span background='#48BF84'>  $(~/.config/i3blocks/scripts/RAM/ram.sh) </span>"
+interval=1
+color=#ffffff
+
+[disk]
+command=echo "<span foreground='#439775' background='#48BF84' size='x-large'></span><span background='#439775'>  $(~/.config/i3blocks/scripts/Disk/disk.sh) </span>"
+interval=1
+color=#ffffff
+
+[sound]
+command=echo "<span foreground='#525B76' background='#439775' size='x-large'></span><span background='#525B76'> 󰕿 $(~/.config/i3blocks/scripts/Sound/sound.sh) </span>"
+interval=1
+color=#ffffff
+
+[time]
+command=echo "<span foreground='#201E50' background='#525B76' size='x-large'></span><span background='#201E50'> $(~/.config/i3blocks/scripts/Time/time.sh) </span>"
+interval=1
+color=#ffffff
