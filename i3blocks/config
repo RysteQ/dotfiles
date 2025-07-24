@@ -18,6 +18,11 @@ command=echo "<span foreground='#439775' background='#48BF84' size='x-large'>
 interval=1
 color=#ffffff
 
+[backup]
+command=echo "<span foreground='#439775' background='#439775' size='x-large'></span><span background='#439775'>  $(~/.config/i3blocks/scripts/Disk/backup.sh) </span>"
+interval=1
+color=#ffffff
+
 [sound]
 command=echo "<span foreground='#525B76' background='#439775' size='x-large'></span><span background='#525B76'> 󰕿 $(~/.config/i3blocks/scripts/Sound/sound.sh) </span>"
 interval=1
